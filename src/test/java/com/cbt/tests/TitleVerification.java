@@ -30,7 +30,7 @@ String URL = "";
                     System.out.println((i+1)+".case: "+"PASS");
 
             } else {
-                System.out.println("FAIL");
+                System.out.println((i+1)+".case: "+"FAIL");
             }
         }
 driver.quit();
