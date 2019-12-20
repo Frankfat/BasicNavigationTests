@@ -65,6 +65,6 @@ public class ActionsExamplesTest {
         Thread.sleep(2000);
        //build ==> is chain the actions
         actions.moveToElement(source).clickAndHold().moveToElement(target).release().build().perform();
-
+//
     }
 }
